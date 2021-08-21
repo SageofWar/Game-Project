@@ -1,0 +1,67 @@
+body{
+	background: turquoise;
+	color:#666;
+	font-family: "Arial", sans-serif;
+}
+
+/*Title txt color*/
+h1{
+	text-align: center;
+	color: white;
+}
+
+/*This is to clear anyt floats*/
+.clearfix{
+	clear:both;
+}
+
+/*Creating the Container*/
+#container{
+	width:350px;
+	overflow: auto;
+	margin: 40px auto;
+	background: #666;
+	padding-bottom: 40px; /*The padding-bottom property is used to specify the width of the bottom area of the element's padding box.*/
+	border-radius: 10px; /*rounds the corners of an element's outer border edge*/
+}
+
+#board li{
+	float:left; /*The float CSS property places an element on the left or right side of its containe*/
+	margin: 10px;
+	height: 70px;
+	width: 70px;
+	font-size: 55px;
+	background: grey;
+	color: purple;
+	list-style: none;
+	text-align: center;
+	border-radius:5px; 
+}
+
+#board li:hover, #reset li:hover{
+	cursor: pointer;
+	background: black;
+}
+
+/*Making the reset button*/
+#reset {
+	border: 0;
+	background: grey;
+	color: #fff;
+	width: 70%;
+	padding:15px;
+	border-radius: 5px;
+}
+
+.o{
+	color: green !important;
+}
+
+.x{
+	color: red !important;
+}
+footer{
+	display:block;
+	text-align: center;
+	padding-top: 20px ;
+}
